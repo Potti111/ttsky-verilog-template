@@ -5,7 +5,8 @@
   output reg clk_div2,
   output reg clk_div4,
   output reg clk_div8,
-  output reg clk_div16
+  output reg clk_div16,
+     input  wire       ena     // always 1 when the design is powered, so you can ignore it
 );
 
   // simple ripple clock divider

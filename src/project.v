@@ -3,6 +3,7 @@
 module tt_um_vga_example(
    input clk,
    input ena,
+   input rst_n,
   input reset,
   output reg clk_div2,
   output reg clk_div4,

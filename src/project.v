@@ -5,13 +5,21 @@
 
 //---- Top entity
 module tt_um_vga_example (
-    input  wire clk,
-    input  wire rst_n,
+    // 8 Input‑Pins
     input  wire [7:0] ui_in,
+
+    // 8 Output‑Pins
     output wire [7:0] uo_out,
+
+    // 8 bidirektionale Pins
     input  wire [7:0] uio_in,
     output wire [7:0] uio_out,
-    output wire [7:0] uio_oe
+    output wire [7:0] uio_oe,
+
+    // Steuer‑Signale vom Multiplexer
+    input  wire ena,   // wird 1, wenn dein Design „dran“ ist
+    input  wire clk,   // globaler Clock
+    input  wire rst_n  // Reset, aktiv low
 );
 
     // unbenanntes internes Top (dein altes main)

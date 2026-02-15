@@ -405,7 +405,7 @@ module ve1fb38 (
   assign w4      = vd6d696;
   assign w5      = v16d4c6;
   assign ve485b0 = w8;
-  assign v369b88 = w9;
+  assign v369b88 =  32'b0;
   assign w1      = w0;
   assign w3      = w2;
   assign w7      = w6;

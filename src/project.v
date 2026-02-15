@@ -46,7 +46,7 @@ module tt_core #(
 );
   localparam p1 = vbb681f;
   localparam p3 = v38ccab;
-  wire [0:7] w0;
+    wire [7:0] w0;
   wire       w2;
   wire       w4;
   wire       w5;
@@ -92,8 +92,8 @@ module v4aa649 #(
   localparam p4 = v5c678e;
   localparam p5 = v93035e;
   wire        w0;
-  wire [0:31] w1;
-  wire [0:31] w2;
+    wire [31:0] w1;
+  wire [31:0] w2;
   wire        w3;
   wire        w6;
   wire        w7;
@@ -405,7 +405,7 @@ module ve1fb38 (
   assign w4      = vd6d696;
   assign w5      = v16d4c6;
   assign ve485b0 = w8;
-  assign v369b88 =  32'b0;
+ // assign v369b88 =  32'b0;
   assign w1      = w0;
   assign w3      = w2;
   assign w7      = w6;

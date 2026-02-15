@@ -4,7 +4,7 @@
 `default_nettype none
 
 //---- Top entity
-module main #(
+module tt_um_vga_example(
  parameter v38ccab = 10,
  parameter vbb681f = 500
 ) (

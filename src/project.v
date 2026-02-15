@@ -298,7 +298,7 @@ module v9cd840 (
   input        v6dda25,
   input  [31:0] vdd8a3d,
   output       v298468,
-  output [31:0] vdb018a,
+output [31:0] vdb018a,
   output       v4642b6
 );
   wire        w0;
@@ -319,6 +319,9 @@ module v9cd840 (
   assign v4642b6  = w7;
   assign w3       = w2;
   assign w8       = w7;
+
+    assign v298468 = 1'b0;
+assign vdb018a = 32'b0;
 
   v873425 v5ca286 (
     .vcbab45(w0),
@@ -1606,6 +1609,9 @@ module vd5bdd7 #(
   assign w3      = v9406e4;
   assign w4      = va5013b;
   assign w5      = v23125b;
+ assign ve74064 = 1'b0;
+assign v0c9980 = 1'b0;
+assign v8c0d77 = 1'b0;
 
   vd5bdd7_vb9285f #(
     .INI(p0)
@@ -1744,6 +1750,7 @@ module v58ed2b #(
   assign w0      = va4102a;
   assign ve8318d = w1;
   assign w3      = vf54559;
+    assign va58c5b = 1'b0;
 
   v58ed2b_vb8adf8 #(
     .INI(p2)

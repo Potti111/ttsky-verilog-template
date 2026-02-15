@@ -4,7 +4,32 @@
 `default_nettype none
 
 //---- Top entity
-module tt_um_vga_example #(
+module tt_um_vga_example (
+    input  wire clk,
+    input  wire rst_n,
+    input  wire [7:0] ui_in,
+    output wire [7:0] uo_out,
+    input  wire [7:0] uio_in,
+    output wire [7:0] uio_out,
+    output wire [7:0] uio_oe
+);
+
+    // unbenanntes internes Top (dein altes main)
+    wire [7:0] seg;
+
+    tt_core main_inst (
+        .vclk    (clk),
+        .v398a87 (seg)
+    );
+
+    assign uo_out = seg;      // z.B. 7‑Segment + Select rausführen
+    assign uio_out = 8'b0;
+    assign uio_oe  = 8'b0;    // alles als Eingang lassen
+
+endmodule
+
+
+module tt_core #(
   parameter v38ccab = 10,
   parameter vbb681f = 500
 ) (

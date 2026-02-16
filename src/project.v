@@ -306,7 +306,7 @@ output [31:0] vdb018a,
   wire        w2;
   wire        w3;
   wire        w4;
-  wire [0:31] w5;
+//  wire [0:31] w5;
   wire [0:31] w6;
   wire        w7;
   wire        w8;
@@ -322,7 +322,7 @@ output [31:0] vdb018a,
 
     assign v298468 = 1'b0;
 assign vdb018a = 32'b0;
-    assign v369b88 = 32'b0; 
+   // assign v369b88 = 32'b0; 
 
   v873425 v5ca286 (
     .vcbab45(w0),

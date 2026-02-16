@@ -314,7 +314,7 @@ output [31:0] vdb018a,
   assign w2       = v6dda25;
   assign w3       = v6dda25;
   assign v298468  = w4;
-  assign vdb018a  = w5;
+//  assign vdb018a  = w5;
   assign w6       = vdd8a3d;
   assign v4642b6  = w7;
   assign w3       = w2;

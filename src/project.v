@@ -322,6 +322,7 @@ output [31:0] vdb018a,
 
     assign v298468 = 1'b0;
 assign vdb018a = 32'b0;
+    assign v369b88 = 32'b0; 
 
   v873425 v5ca286 (
     .vcbab45(w0),
@@ -333,7 +334,7 @@ assign vdb018a = 32'b0;
     .vd6d696(w0),
     .v251484(w2),
     .v4642b6(w4),
-    .v369b88(w5),
+    //.v369b88(w5),
     .v16d4c6(w6),
     .ve485b0(w7)
   );
@@ -385,7 +386,7 @@ module ve1fb38 (
   input  [31:0] v16d4c6,
   input        vd6d696,
   output       v4642b6,
-  output [31:0] v369b88,
+ // output [31:0] v369b88,
   output       ve485b0
 );
   wire        w0;

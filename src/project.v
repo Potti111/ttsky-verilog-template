@@ -27,7 +27,11 @@ module tt_um_vga_example (
 
     tt_core main_inst (
         .vclk    (clk),
-        .v398a87 (seg)
+        .v398a87 (seg),
+            // Dummy connects für CHECK
+    .v298468 (1'b0),
+    .vdb018a (32'b0),
+    .v4642b6 (1'b0)  // etc.
     );
 
     assign uo_out = seg;      // z.B. 7‑Segment + Select rausführen

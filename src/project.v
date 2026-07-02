@@ -7,6 +7,7 @@
 module tt_um_vga_example (
     // 8 Input‑Pins
     input  wire [7:0] ui_in,
+    
 
     // 8 Output‑Pins
     output wire [7:0] uo_out,
